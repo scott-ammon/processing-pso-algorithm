@@ -1,8 +1,7 @@
 # processing-pso-algorithm
 
-I decided to take on learning some basic functionality of Processing, and wrote
-this code in 2014 as a side project to implement an algorithm I was taught during
-my graduate degree in Naval Architecture. This was a really fun way to get to know
-some of the basic plotting in Processing, and keep up my scripting skills on the side.
+I chose to refactor a particle swarm optimization algorithm I had written in MATLAB into a language/visualization library called Processing. The original algorithm was applied to the problem of sizing an offshore Tension Leg Platform (TLP) to maximize performance while minimizing cost. In order to create the Processing code, I chose to minimize a simple function in the form y = x^2 to start. You can differentiate this function and it is unnecessary to perform numerical methods to minimize, but this provides an easy example to graph output and watch the population variables ‘swarm’ toward the global minimum (0,0) to verify that the code is functioning.
 
+The name particle swarm stems from the way that the population variables "swarm" around each other and influence each other’s movements, much like a flock of birds or a school of fish. This method works well in numerically minimizing multivariate, nonlinear objective functions with multiple constraints, like the TLP design problem that I previously used this for.
 
+This was a great way to learn new syntax (Processing uses Java, with some modifications), and refactor some of my code!
